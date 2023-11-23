@@ -6,7 +6,6 @@ const morgan= require('morgan');
 const taskRouter = require('./routes/taskRoute');
 
 const app= express();
-console.log("hello world");
 
 ///Middlewares///
 if (process.env.NODE_ENV === 'development') {
